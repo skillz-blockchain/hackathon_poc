@@ -4,9 +4,6 @@
 
 The main goal of this exercise is to "reproduce" a Leboncoin built on the blockchain, where it secures the money transfer.
 
-I'll explain, one can indeed post an article to sell to the first offering
-Once someone is interested, he can place money on the blockchain, that'll be released once he confirms he received the article.
-
 ## Flow example
 
 The user flow could be similar to:
@@ -19,9 +16,9 @@ The user flow could be similar to:
 
 Every action containing money (Ether) should be executed on the blockchain.
 
-### Additional steps
+### Optional steps
 
-You are free to provide a backend who will link public Ethereum addresses to an account (mail, avatar or whatever) so that the platform is a bit more user friendly.
+You are free to provide a backend who will link public Ethereum addresses to an account (mail, profile picture or whatever) so that the platform is a bit more user friendly.
 For example, the user can register / log in using his public key into the platform
 
 ## Subject
