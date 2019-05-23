@@ -24,7 +24,7 @@ For example, the user can register / log in using his public key into the platfo
 ## Subject
 
 - Develop a smart contract in [Solidity](https://solidity.readthedocs.io/en/v0.5.7/) that can rule the whole concept on its own
-  - For example, it can have functions like `sell_item`, `buy_item` and `accept_item_reception`
+  - For example, it can have functions like `sell_item`, `buy_item` and `confirm_reception`
 - Create a platform using [ReactJS](https://reactjs.org/) that can propose to sell an article and list the available ones.
 - The interface will interact with the blockchain
   -  You can use [Web3JS](https://github.com/ethereum/web3.js/) and [Metamask](https://metamask.io/)
@@ -40,7 +40,8 @@ You might have to take a look at:
 
 - To interact with the blockchain, you will need a _wallet provider_ such as [Metamask](https://metamask.io/)
   - You can easily create a wallet through the extension
-- The application will run on a testnet called Ropsten, here's a provider you can use to connect to it `ropsten.infura.io/v3/b1c4b69a70764816b8322247bc5b5939`
+- The application will run on a testnet called Ropsten, here's a provider you can use to connect to it: `ropsten.infura.io/v3/b1c4b69a70764816b8322247bc5b5939`
+- To easily deploy your smart contract you can use [Remix](https://remix.ethereum.org) with [Metamask](https://metamask.io/)
 - Come see the SkillZ team to get free Ropsten Ethereum onto your account
 
 _If you have any question, do not hesitate to come see us_
