@@ -27,7 +27,7 @@ For example, the user can register / log in using his public key into the platfo
 ## Subject
 
 - Develop a smart contract in [Solidity](https://solidity.readthedocs.io/en/v0.5.7/) that can rule the whole concept on its own
-  - For example, it can have functions like `sell_item`, `buy_item` and `accept_item_reception`
+  - For example, it can have functions like `sell_item`, `buy_item` and `confirm_reception`
 - Create a platform using [ReactJS](https://reactjs.org/) that can propose to sell an article and list the available ones.
 - The interface will interact with the blockchain
   -  You can use [Web3JS](https://github.com/ethereum/web3.js/) and [Metamask](https://metamask.io/)
