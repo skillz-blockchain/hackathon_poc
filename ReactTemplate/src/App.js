@@ -14,7 +14,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    const articles = 1;
+    const articles = [{ name: 'My article', price: 100 }];
     this.setState({
       articles: articles,
     });
